@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_weight="1.89"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+        <TextView android:id="@+id/Progress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.78"
+            android:gravity="center"
+            android:textSize="24dp"
+
+            android:background="@android:color/background_light" />
+
+        <Chronometer android:id="@+id/chronometer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:background="@android:color/background_light" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        />
+
+    <ListView android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.85"
+        android:background="@android:color/holo_orange_light" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <FrameLayout android:id="@+id/numpadContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:background="@android:color/holo_orange_light" />
+
+</LinearLayout>
+

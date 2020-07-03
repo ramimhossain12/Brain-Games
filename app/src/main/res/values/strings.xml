@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Brain Game</string>
+
+
+    <string name="restart_label">Restart</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="main_menu_label">Main Menu</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_title">Developer info</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="title_activity_quiz">Exit</string>
+    <string name="tag_qlength">qModelDialog</string>
+    <string name="tag_about">\ OK   </string>
+
+    <string name="btn_start">Start</string>
+    <string name="btn_instruction">Instructions</string>
+    <string name="btn_score">Score</string>
+
+    <string name="choose_mode">Choose the quiz mode</string>
+    <string name="Cancel">Cancel</string>
+    <string name="go">Go</string>
+    <string-array name="modes">
+        <item>Novice</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Guru</item>
+    </string-array>
+    <string name="ok_label">Ok</string>
+    <string name="about_text">
+    I am Ramim Hossain \nStudying in Computer Science and Engineering at Daffodil International University. Passionate about android  and ios app development.
+        Love to build android and ios application.  </string>
+</resources>

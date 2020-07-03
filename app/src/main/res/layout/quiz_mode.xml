@@ -1,0 +1,66 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@android:color/holo_orange_light">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:text="@string/choose_mode"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/novice_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:text="Normal"
+        android:onClick="novicemode" />
+
+    <Button
+        android:id="@+id/easy_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:text="Easy"
+        android:onClick="Easymode" />
+
+    <Button
+        android:id="@+id/medium_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:text="Medium"
+        android:onClick="Mediummode" />
+
+    <Button
+        android:id="@+id/Guru_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:text="Very High"
+        android:onClick="Gurumode" />
+</LinearLayout>
+
+
+
